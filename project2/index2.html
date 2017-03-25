@@ -1,0 +1,144 @@
+<html>
+<head>
+<title>Doctor's Garage</title>
+<link rel="Shortcut icon" href="img/logo.jpg" />
+<link href="index.css" rel="stylesheet">
+    <script src='js/jquery-1.6.3.min.js'></script>
+    <script src='js/jquery.easing.1.3.js'></script>
+    <script>
+    $(document).ready(function()
+    {
+        $('#logos').animate({ 
+        right: "+800",
+        bottom: "90%"
+    }, 2000,
+    'easeInOutElastic');
+    
+        $('#menu').hide().delay(500).slideDown(500);
+        $('#kontaktcd').animate({ 
+        top: "40%",
+        left: "500px"
+    }, 2000,
+    'easeInOutElastic'); 
+  
+        $('#kontaktcd').toggle(function()
+                              {
+           $('#kontakt').animate({ 
+        top: "30%",
+        left: "+35px"
+    }, 2000,
+    'easeInOutElastic'); 
+            
+        }, function()
+                              {
+           $('#kontakt').animate({ 
+        top: "-263px",
+    }, 2000,
+    'easeInOutElastic');   
+        }
+        
+        );
+
+    });
+    </script>
+<META HTTP-EQUIV="content-type" CONTENT="text/html" charset='utf-8'>
+
+</head>
+<body>
+<div id="logo">
+    <i style="padding: -20px" id="logos">
+        <font color="red" >DOCTOR'S</font> GARAGE</i>
+<a href="fb.php" ><img src="img/fb.gif" width="50" style="position: absolute; right: 250px;" alt="Facebook"></a>
+<a href="yt.php" ><img src="img/yt.png" width="50" style="position: absolute; right: 300px;" alt="YouTube"></a>
+<a href="gplus.php" ><img src="img/gplus.png" width="50" style="position: absolute; right: 360px;" alt="Google Plus"></a>
+
+</div> 
+<div id="background">
+<div id="menu">
+<b>
+<div class="menu_link">Home<div class="wybrano"></div></div>
+<div class="menu_link" id="o_nas"> &#8595; O nas</div>
+<div class="menu_link">Nowości</div>
+<div class="menu_link">Rekomendacje</div>
+<div class="menu_link">Projekty</div>
+<div class="menu_link" id="galeria">&#8595; Galeria</div>
+<div class="menu_link">Kontakt</div>
+<div style="clear: both"></div>
+    </b>
+</div>
+ 
+<div id="tresc">
+    <table>
+    <tr>
+    <td><img src="img/logo.jpg" width="300"></td>
+    <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget nisi in enim molestie dignissim. Mauris eget ipsum mattis, semper tellus molestie, tincidunt erat. Suspendisse elementum bibendum metus ut gravida. Quisque sapien magna, mattis eget diam vitae, fringilla dapibus lacus. Phasellus a orci id quam facilisis dapibus a ut lorem. Aliquam ornare lacus in sodales finibus. Duis suscipit, nibh eget suscipit hendrerit, magna turpis condimentum velit, ac rutrum dui nulla a neque. Aliquam at porttitor elit.
+
+Duis egestas aliquam scelerisque. Proin ornare, elit nec scelerisque interdum, ipsum mi sollicitudin nisl, efficitur commodo dui nulla sit amet risus. Quisque accumsan a ex ut eleifend. In hac habitasse platea dictumst. Sed malesuada velit ex, ac pretium ipsum pretium in. Cras ultrices elit metus, in pharetra risus lobortis quis. Mauris dignissim, turpis ac venenatis condimentum, nisl libero posuere tellus, sed ornare arcu ligula non nunc. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Morbi interdum mattis tortor nec ornare.
+
+Vestibulum est sem, consequat condimentum ex sed, ultrices suscipit enim. Vivamus sagittis tempus diam, in placerat nunc interdum sed. Praesent tellus massa, cursus ac placerat eu, posuere sit amet nisl. Vestibulum a maximus libero. Nulla eget odio purus. Phasellus posuere ornare ligula nec pharetra. Quisque imperdiet augue ut quam faucibus convallis. Vestibulum lacinia leo et erat finibus, eget hendrerit lacus dapibus. In id sagittis justo, in feugiat arcu. Morbi pellentesque imperdiet porta.</td>
+    </tr>
+    
+    </table>
+<br />    
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget nisi in enim molestie dignissim. Mauris eget ipsum mattis, semper tellus molestie, tincidunt erat. Suspendisse elementum bibendum metus ut gravida. Quisque sapien magna, mattis eget diam vitae, fringilla dapibus lacus. Phasellus a orci id quam facilisis dapibus a ut lorem. Aliquam ornare lacus in sodales finibus. Duis suscipit, nibh eget suscipit hendrerit, magna turpis condimentum velit, ac rutrum dui nulla a neque. Aliquam at porttitor elit.
+
+
+</div>
+    
+</div>
+
+<div id="footer"><i>Wszystkie Prawa zastrzeżone Doctor's Garage 2016 </i></div>
+    
+    
+<div id="kontakt">
+<table>
+<tr>
+ <td></td>   
+ <td><b>Rafał Ruzga</b></td>   
+    
+</tr> 
+<tr>
+ <td><img src="img/phone.png" width="30"></td>   
+ <td>791 444 108<br /></td>   
+    
+</tr> 
+<tr>
+ <td><img src="img/phone2.png" width="30"></td>   
+ <td>44 710 23 16<br /></td>   
+    
+</tr> 
+<tr>
+ <td><img src="img/location.png" width="30"></td>   
+ <td>97-212 Budziszewice<br /></td>   
+    
+</tr> 
+<tr>
+ <td></td>   
+ <td>ul. Cmentarna 1</td>   
+    
+</tr> 
+<tr>
+ <td><img src="img/mail.png" width="30"></td>   
+ <td>rafal@DoctorsGarage.pl</td>   
+    
+</tr> 
+
+    
+</table>
+
+<br />
+    
+<div id="kontaktcd">KONTAKT <b>&#8595;</b>
+    </div>
+</div>
+<div id="podmenu">
+<ul>
+<li><a href="#">Podmenu</a></li>
+<li><a href="#">Podmenu</a></li>
+<li><a href="#">Podmenu</a></li>
+<li><a href="#">Podmenu</a></li>
+<li><a href="#">Podmenu</a></li>
+</ul>    
+</div>
+</body>
+    
